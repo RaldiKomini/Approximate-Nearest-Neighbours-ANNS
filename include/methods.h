@@ -37,5 +37,6 @@ typedef struct {
 
 //  Nearest Neighbours with brute force
 vector<point> brute_nearest(vector<vector<uchar>>  &imgs, vector<uchar> &query, int N, int metric);
+vector<point> brute_nearest(vector<vector<uchar>>  &imgs, vector<double> &query, int N, int metric);
 
 #endif /* METHODS_H */
